@@ -1,5 +1,6 @@
 // src/components/Tramites.js
 import React from 'react';
+import './Tramites.css';  // Importa el archivo CSS
 
 const Tramites = () => {
   return (
@@ -93,6 +94,6 @@ const Tramites = () => {
       <p>Para obtener más información sobre programas de vivienda y alojamiento, consulta en tu municipio o en las plataformas de vivienda pública.</p>
     </section>
   );
-}
+};
 
 export default Tramites;
