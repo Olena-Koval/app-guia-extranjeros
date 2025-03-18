@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+
+/* Estilo para el contenedor de la navegación */
+nav {
+    background-color: #533f99;  /* Puedes cambiar el color de fondo */
+    padding: 10px;
+  }
+  
+  /* Estilo para los enlaces de navegación */
+  .nav-links {
+    display: flex;           /* Usa flexbox para alinearlos en una línea */
+    justify-content: space-around; /* Espaciado equitativo entre los elementos */
+    list-style: none;        /* Elimina los puntos de lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;   /* Asegura que los elementos se muestren en línea */
+  }
+  
+  .nav-links a {
+    color: white;            /* Color del texto */
+    text-decoration: none;   /* Elimina el subrayado */
+    padding: 10px 15px;      /* Espaciado alrededor de los enlaces */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+  }
+  
+  /* Efecto hover */
+  .nav-links a:hover {
+    background-color: #575757 /* Color de fondo cuando el ratón pasa sobre el enlace */
+  }
+  
