@@ -10,7 +10,7 @@ import FAQ from './components/FAQ';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/app-guia-extranjeros">
       <div className="App">
         <Header />
         <main>
