@@ -1,9 +1,7 @@
-// src/axios.js
-import axios from "axios";
+import axios from 'axios';
 
-// Configuramos Axios con una base URL para las solicitudes
 const instance = axios.create({
-  baseURL: "https://olena-koval.github.io/app-guia-extranjeros", // Sustituye esta URL por la URL de tu API real
+  baseURL: 'https://tuservidor.com/api',  // Asegúrate de que esta URL sea la correcta
 });
 
 export default instance;

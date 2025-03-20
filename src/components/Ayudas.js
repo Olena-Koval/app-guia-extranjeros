@@ -23,14 +23,6 @@ const Ayudas = () => {
       });
   }, []);  // El arreglo vacío asegura que solo se ejecuta una vez al montar el componente
 
-  if (loading) {
-    return <p>Cargando ayudas sociales...</p>; // Mensaje mientras estamos cargando los datos
-  }
-
-  if (error) {
-    return <p>{error}</p>; // Mensaje de error si ocurre un problema
-  }
-
   return (
     <section>
       <h2>Ayudas Sociales en Zaragoza</h2>
@@ -147,6 +139,6 @@ const Ayudas = () => {
       </section>
     </section>
   );
-}
+};
 
 export default Ayudas;
